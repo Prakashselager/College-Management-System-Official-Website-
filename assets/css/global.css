@@ -1,0 +1,61 @@
+/* ==========================================
+    GLOBAL STYLES – PREVENT HORIZONTAL SCROLL
+==========================================*/
+
+/* Reset and base – only html gets overflow hidden */
+html {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: visible;  /* <- this is important for sticky */
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Tables */
+table {
+    max-width: 100%;
+    display: block;
+    overflow-x: auto;
+}
+
+/* All containers – ensure they don't clip sticky */
+.container,
+.wrapper,
+.main-wrapper,
+.page-wrapper {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+/* Prevent any element from causing horizontal scroll */
+section,
+div,
+header,
+footer,
+nav,
+main {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Ensure nothing overflows */
+* {
+    max-width: 100%;
+}
