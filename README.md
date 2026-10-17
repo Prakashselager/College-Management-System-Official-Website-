@@ -32,7 +32,7 @@ A comprehensive, fully responsive PHP-MySQL based web application designed to se
 
 ### 1. Clone the repository
 \`\`\`bash
-git clone https://github.com/YOUR-USERNAME/college-management-system.git
+git clone https://github.com/Prakashselager/College-Management-System-Official-Website-
 cd college-management-system
 \`\`\`
 
